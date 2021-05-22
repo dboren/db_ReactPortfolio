@@ -15,7 +15,7 @@ const Header = () => {
                             <a href="/">About</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="portfolio.html">Portfolio</a>
+                            <a href="/portfolio">Portfolio</a>
                         </li>
                         <li class="list-group-item">
                             <a href="/contact">Contact</a>
