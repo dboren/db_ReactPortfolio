@@ -12,13 +12,13 @@ const Header = () => {
                 <nav>
                     <ul class="list-group list-group-horizontal">
                         <li class="list-group-item">
-                            <a href="index.html">About</a>
+                            <a href="/">About</a>
                         </li>
                         <li class="list-group-item">
                             <a href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="contact.html">Contact</a>
+                            <a href="/contact">Contact</a>
                         </li>
                     </ul>  
                  </nav>
