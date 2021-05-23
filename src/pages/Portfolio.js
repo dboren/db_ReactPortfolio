@@ -24,7 +24,40 @@ class Portfolio extends Component {
                 contributors: "Created in collaboration with Rony Iraq, Kayleigh Hanna, and Angelica Courson",
                 repoURL: "https://github.com/riraq/Nonprofit_Locator",
                 deployedURL: "https://riraq.github.io/Nonprofit_Locator/"
+            },
+            {
+                name: "Day-Planner",
+                imgLink: "Assets/Images/DayPlannerSC.JPG",
+                description: "This application allows users to save notes to a cell for each hour of the day and access again upon return sessions. App also color codes cells depending on the current time",
+                contributors: "",
+                repoURL: "https://github.com/dboren/db_hw_DayPlanner",
+                deployedURL: "https://dboren.github.io/db_hw_DayPlanner/"
+            },
+            {
+                name: "Weather Dashboard",
+                imgLink: "Assets/Images/WeatherDashboardSC.JPG",
+                description: "This application utilizes to OpenWeather API to allow users to look up weather conditions and a 5 day forecast by city.",
+                contributors: "",
+                repoURL: "https://github.com/dboren/db_hw_WeatherDashboard",
+                deployedURL: "https://dboren.github.io/db_hw_WeatherDashboard/"
+            },
+            {
+                name: "NoteTaker",
+                imgLink: "",
+                description: "This application uses Express routing to allow users to write and save notes in their browser.",
+                contributors: "",
+                repoURL: "https://github.com/dboren/db-hw-NoteTaker",
+                deployedURL: "https://cryptic-fortress-45570.herokuapp.com/"
+            },
+            {
+                name: "BudgetTracker",
+                imgLink: "",
+                description: "This application allows users to keep track of their budget by entering transactions which are stored to an indexed database in their web browser. This is a progressive web application which allows users to continue saving transactions even without an internet connection.",
+                contributors: "",
+                repoURL: "https://github.com/dboren/db_hw_BudgetTracker",
+                deployedURL: "https://calm-tundra-13113.herokuapp.com"
             }
+
 
         ]
 
