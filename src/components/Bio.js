@@ -6,7 +6,7 @@ const Bio = () => {
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="../assets/images/ProfileIMG.jpg" alt="Photo of Daniel Boren"></img>
+                    <img src="https://dboren.github.io/db_UpdatedPortfolio2/Assets/Images/ProfileImg.jpg" alt="Photo of Daniel Boren"></img>
         </div>
                 <div class="col">
                     <h2>About me</h2>
