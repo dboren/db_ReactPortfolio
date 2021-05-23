@@ -16,7 +16,14 @@ class Portfolio extends Component {
                 contributors: "Created in collaboration with Mark Lloyd, Kayleigh Hanna, and Kanna Vairavan",
                 repoURL: "https://github.com/m-llo/Project-2-Team-6",
                 deployedURL: "https://stormy-river-69253.herokuapp.com"
-
+            },
+            {
+                name: "Nonprofit Locator",
+                imgLink: "https://github.com/riraq/Nonprofit_Locator/blob/main/assets/ScreenCap.JPG?raw=true",
+                description: "This application utlizes the ProPublica Nonprofit Explorer API and MapBox API to allow users to search for animal and environmental focused nonprofit organizations by city in the USA.",
+                contributors: "Created in collaboration with Rony Iraq, Kayleigh Hanna, and Angelica Courson",
+                repoURL: "https://github.com/riraq/Nonprofit_Locator",
+                deployedURL: "https://riraq.github.io/Nonprofit_Locator/"
             }
 
         ]
