@@ -13,17 +13,17 @@ class Project extends React.Component {
         <content class="container">
         <div class="row mt-3 border">
             <div class="col">
-                <img className="img-source" src="https://github.com/dboren/db_UpdatedPortfolio2/blob/main/Assets/Images/Curatio_Screencap.JPG?raw=true" class="img-fluid" alt="Screenshot of Non-Profit Locator"></img>
+                <img className="img-source" src={this.props.imgLink} class="img-fluid" alt="Screenshot of Non-Profit Locator"></img>
             </div>
             <div class="col">
-                <h2 className="appName">{this.props.appName}</h2>
-                <p className="description">This application utlizes the Youtube API and MapBox API to allow users to put together curated youtube video playlists for hobbies of their choice, after which they can continue to add personal notes to specific videos they have saved. This is a true full stack application which saves user accounts along with their hobbies, videos, and notes in a database</p>
+                <h2 className="appName">{this.props.name}</h2>
+                <p className="description">{this.props.description}</p>
                 
-                <p className="credits">Created in collaboration with Mark Lloyd, Kayleigh Hanna, and Kanna Vairavan</p>
+                <p className="credits">{this.props.contributors}</p>
                 
-                <a className="repo" href="https://github.com/m-llo/Project-2-Team-6">Repository</a>
+                <a className="repo" href={this.props.repoURL}>Repository</a>
                 
-                <a className="deployed" href="https://stormy-river-69253.herokuapp.com">Depoloyed page</a>
+                <a className="deployed" href={this.props.deployedURL}>Depoloyed page</a>
             </div>
         </div>
     </content>
