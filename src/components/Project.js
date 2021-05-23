@@ -23,6 +23,8 @@ class Project extends React.Component {
                 
                 <a className="repo" href={this.props.repoURL}>Repository</a>
                 
+                <br></br>
+
                 <a className="deployed" href={this.props.deployedURL}>Depoloyed page</a>
             </div>
         </div>
