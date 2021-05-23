@@ -13,7 +13,7 @@ class Project extends React.Component {
         <content class="container">
         <div class="row mt-3 border">
             <div class="col">
-                <img className="img-source" src={this.props.imgLink} class="img-fluid" alt="Screenshot of Non-Profit Locator"></img>
+                <img className="img-source" src={this.props.imgLink} class="img-fluid" alt={this.props.altText}></img>
             </div>
             <div class="col">
                 <h2 className="appName">{this.props.name}</h2>
