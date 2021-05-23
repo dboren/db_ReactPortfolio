@@ -29,7 +29,7 @@ class Portfolio extends Component {
             },
             {
                 name: "Day-Planner",
-                imgLink: "Assets/Images/DayPlannerSC.JPG",
+                imgLink: "https://github.com/dboren/db_ReactPortfolio/blob/main/src/assets/images/DayPlannerSC.JPG?raw=true",
                 altText: "Screenshot of Day-Planner",
                 description: "This application allows users to save notes to a cell for each hour of the day and access again upon return sessions. App also color codes cells depending on the current time",
                 contributors: "",
@@ -38,7 +38,7 @@ class Portfolio extends Component {
             },
             {
                 name: "Weather Dashboard",
-                imgLink: "Assets/Images/WeatherDashboardSC.JPG",
+                imgLink: "https://github.com/dboren/db_ReactPortfolio/blob/main/src/assets/images/WeatherDashboardSC.JPG?raw=true",
                 altText: "Screenshot of Weather Dashboard",
                 description: "This application utilizes to OpenWeather API to allow users to look up weather conditions and a 5 day forecast by city.",
                 contributors: "",
@@ -47,7 +47,7 @@ class Portfolio extends Component {
             },
             {
                 name: "NoteTaker",
-                imgLink: "",
+                imgLink: "https://github.com/dboren/db_ReactPortfolio/blob/main/src/assets/images/NoteTakerSC.JPG?raw=true",
                 altText: "Screenshot of NoteTaker",
                 description: "This application uses Express routing to allow users to write and save notes in their browser.",
                 contributors: "",
@@ -56,7 +56,7 @@ class Portfolio extends Component {
             },
             {
                 name: "BudgetTracker",
-                imgLink: "",
+                imgLink: "https://github.com/dboren/db_ReactPortfolio/blob/main/src/assets/images/BudgetTrackerSC.JPG?raw=true",
                 altText: "Screenshot of BudgetTracker",
                 description: "This application allows users to keep track of their budget by entering transactions which are stored to an indexed database in their web browser. This is a progressive web application which allows users to continue saving transactions even without an internet connection.",
                 contributors: "",
