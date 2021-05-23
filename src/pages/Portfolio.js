@@ -10,7 +10,7 @@ class Portfolio extends Component {
         return (
             <div>
             <Header></Header>
-                <Project></Project>
+                <Project className="Curatio"></Project>
             <Footer></Footer>
             </div>
         );
