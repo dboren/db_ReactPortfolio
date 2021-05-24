@@ -7,7 +7,7 @@ import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
-      <Router>
+      <Router basename="/db_ReactPortfolio">
           <div>
               <Switch>
                 <Route exact path ="/" component={Home} />
