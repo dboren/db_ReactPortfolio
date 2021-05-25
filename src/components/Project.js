@@ -4,7 +4,7 @@ class Project extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {money: 0};
+        this.state = {};
       }
    
     render() {
