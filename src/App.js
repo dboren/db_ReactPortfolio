@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -7,7 +7,7 @@ import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
-      <Router basename="/db_ReactPortfolio">
+      <Router basename="/">
           <div>
               <Switch>
                 <Route exact path ="/" component={Home} />
